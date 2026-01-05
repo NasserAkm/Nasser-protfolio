@@ -46,25 +46,25 @@
         <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-primary"></div>
     </div>
     
-    <!-- Ambient Background Blobs (iOS Style) -->
+
     <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
         <div class="absolute top-[-10%] left-[-10%] w-[40rem] h-[40rem] bg-blue-400/20 dark:bg-blue-600/10 rounded-full blur-[100px] animate-float"></div>
         <div class="absolute bottom-[-10%] right-[-10%] w-[30rem] h-[30rem] bg-purple-400/20 dark:bg-purple-600/10 rounded-full blur-[100px] animate-float-delayed"></div>
     </div>
 
-    <!-- Navigation -->
+
     <nav class="fixed w-full z-50 glass-panel border-b-0 border-b-white/20 transition-all duration-300 top-4 left-1/2 transform -translate-x-1/2 w-[95%] max-w-7xl rounded-2xl">
         <div class="px-6 py-3">
             <div class="flex items-center justify-between">
                 
-                <!-- Logo with Dropdown -->
+
                 <div class="relative group group-hover:scale-110">
                     <button id="profileDropdownBtn" class="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-slate-100/50 dark:hover:bg-slate-800/50 transition-all focus:outline-none">
                         <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">Nasser</span>
                         <i class="fas fa-chevron-down text-xs text-slate-400 transition-transform duration-300" id="dropdownIcon"></i>
                     </button>
 
-                    <!-- Dropdown Menu -->
+
                     <div id="profileDropdown" class="absolute top-full start-0 mt-3 w-64 glass-panel rounded-2xl shadow-2xl opacity-0 invisible transform -translate-y-2 transition-all duration-300 origin-top-left overflow-hidden">
                         <div class="p-1">
                             <div class="px-4 py-3 border-b border-slate-200/50 dark:border-slate-700/50">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 
-                <!-- Desktop Menu -->
+
                 <div class="hidden md:flex items-center space-x-1 space-x-reverse bg-slate-100/50 dark:bg-slate-800/50 p-1.5 rounded-xl border border-white/20 dark:border-white/5">
                     <a href="#home" class="px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-white dark:hover:bg-slate-700 hover:shadow-sm transition-all text-slate-600 dark:text-slate-300" data-key="navHome">الرئيسية</a>
                     <a href="#about" class="px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-white dark:hover:bg-slate-700 hover:shadow-sm transition-all text-slate-600 dark:text-slate-300" data-key="navAbout">عني</a>
@@ -102,7 +102,7 @@
                     <a href="#skills" class="px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-white dark:hover:bg-slate-700 hover:shadow-sm transition-all text-slate-600 dark:text-slate-300" data-key="navSkills">المهارات</a>
                 </div>
 
-                <!-- Controls -->
+
                 <div class="flex items-center gap-3">
                     <button onclick="toggleThemeWithTransition()" class="w-10 h-10 rounded-full glass-card flex items-center justify-center text-slate-600 dark:text-yellow-400 transition hover:scale-110">
                         <i class="fas fa-sun dark:hidden"></i>
@@ -117,24 +117,24 @@
         </div>
     </nav>
 
-    <!-- 1. Hero Section -->
+
     <section id="home" class="min-h-screen flex items-center justify-center pt-24 pb-12 relative px-4">
         <div class="max-w-5xl w-full text-center relative z-10">
             
-            <!-- Glass Card Container -->
+
             <div class="glass-panel p-8 md:p-12 rounded-[2.5rem] relative overflow-hidden animate-fade-in-up">
                 
-                <!-- Decorative Circle -->
+
                 <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-b from-blue-500/20 to-transparent rounded-full blur-3xl"></div>
 
-                <!-- Profile Image -->
+
                 <div class="relative w-40 h-40 md:w-48 md:h-48 mx-auto mb-8">
                     <div class="absolute inset-0 bg-blue-500/30 rounded-full blur-lg transform translate-y-2"></div>
                     <img src="assets/img/avatar.png" 
                          alt="Nasser" 
                          class="relative w-full h-full object-cover rounded-full border-4 border-white/80 dark:border-slate-700 shadow-xl">
                     
-                    <!-- Status Badge -->
+
                     <div class="absolute bottom-2 end-2 bg-white/90 dark:bg-slate-800/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-green-600 shadow-lg border border-white/50 flex items-center gap-2">
                         <span class="relative flex h-2 w-2">
                           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
@@ -152,7 +152,7 @@
                 <p class="mt-4 text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-semibold h-8 code-cursor" id="typewriter-text"></p>
                 
                 <p class="mt-6 text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed" data-key="heroDesc">
-                    أجمع بين دقة <span class="font-bold text-slate-800 dark:text-white">الإدارة التنفيذية</span> وذكاء <span class="font-bold text-slate-800 dark:text-white">الحلول التقنية</span>. هدفي هو تحويل الفوضى الإدارية إلى أنظمة رقمية سلسة وفعالة.
+                    <span class="font-bold text-slate-800 dark:text-white">حيث يلتقي المنطق البرمجي بدقة التنظيم الإداري.</span>
                 </p>
                 
                 <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
@@ -167,14 +167,14 @@
         </div>
     </section>
 
-    <!-- 2. The Hybrid Professional (About) -->
+
     <section id="about" class="py-20 px-4">
         <div class="max-w-6xl mx-auto w-full">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 
-                <!-- Visual Cards -->
+ 
                 <div class="relative h-[400px]">
-                    <!-- Admin Card -->
+
                     <div class="absolute top-0 right-0 md:right-10 w-64 p-6 glass-panel rounded-3xl z-10 animate-float">
                         <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-2xl flex items-center justify-center text-purple-600 mb-4">
                             <i class="fas fa-briefcase text-xl"></i>
@@ -183,7 +183,7 @@
                         <p class="text-sm text-slate-500 dark:text-slate-400" data-key="cardAdminDesc">إدارة العمليات، الجدولة، تنسيق الموارد، والتواصل التنفيذي.</p>
                     </div>
 
-                    <!-- Tech Card -->
+
                     <div class="absolute bottom-0 left-0 md:left-10 w-64 p-6 glass-panel rounded-3xl z-20 animate-float-delayed border-blue-200 dark:border-blue-900">
                         <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-2xl flex items-center justify-center text-blue-600 mb-4">
                             <i class="fas fa-laptop-code text-xl"></i>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
 
-                <!-- Text Content -->
+                
                 <div>
                     <span class="text-blue-600 dark:text-blue-400 font-bold tracking-wider text-sm uppercase mb-2 block" data-key="aboutSubtitle">لماذا أنا؟</span>
                     <h2 class="text-3xl md:text-5xl font-bold mb-6 text-slate-900 dark:text-white leading-tight" data-key="aboutTitle">
@@ -219,7 +219,7 @@
         </div>
     </section>
 
-    <!-- 3. Expanded Journey (Timeline) -->
+
     <section id="journey" class="py-20 px-4 relative">
         <div class="max-w-4xl mx-auto w-full">
             <div class="text-center mb-16">
@@ -229,7 +229,7 @@
 
             <div class="relative space-y-8 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
                 
-                <!-- Item 1 (Latest) -->
+
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 text-white z-10">
                         <i class="fas fa-computer text-xs"></i>
@@ -248,7 +248,7 @@
                     </div>
                 </div>
 
-                <!-- Item 2 -->
+
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 text-white z-10">
                         <i class="fas fa-image text-xs"></i>
@@ -267,7 +267,7 @@
                     </div>
                 </div>
 
-                <!-- Item 3 -->
+
                 <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
                     <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-400 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 text-white z-10">
                         <i class="fas fa-globe text-xs"></i>
@@ -289,14 +289,14 @@
         </div>
     </section>
 
-    <!-- 4. Digital Ecosystem (New Section) -->
+
     <section id="skills" class="py-20 px-4">
         <div class="max-w-6xl mx-auto w-full">
             <h2 class="text-3xl font-bold text-center mb-12 text-slate-900 dark:text-white" data-key="skillsTitle">المنظومة الرقمية والمهارات</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 
-                <!-- Skill Card 1 -->
+
                 <div class="glass-panel p-6 rounded-2xl text-center group hover:bg-white/80 dark:hover:bg-slate-800 transition-all">
                     <div class="w-16 h-16 mx-auto bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center text-green-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="fas fa-file-excel"></i>
@@ -305,7 +305,7 @@
                     <p class="text-sm text-slate-500 dark:text-slate-400" data-key="skill1desc">إتقان متقدم لحزمة مايكروسوفت أوفيس، ويشمل استخدام Excel Macros & VBA لأتمتة المهام الروتينية، وبناء لوحات معلومات تفاعلية (Dashboards)، بالإضافة إلى إعداد تقارير آلية احترافية عبر Word وتصميم عروض تقديمية ديناميكية.</p>
                 </div>
 
-                <!-- Skill Card 2 -->
+
                 <div class="glass-panel p-6 rounded-2xl text-center group hover:bg-white/80 dark:hover:bg-slate-800 transition-all">
                     <div class="w-16 h-16 mx-auto bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center text-blue-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="fas fa-network-wired"></i>
@@ -314,7 +314,7 @@
                     <p class="text-sm text-slate-500 dark:text-slate-400" data-key="skill2desc">خبرة تشغيلية في التعامل مع أنظمة SAP و Oracle HRM لإدارة الموارد والبيانات البشرية، مع معرفة عملية بنظام Salesforce لتنظيم بيانات العملاء ومتابعة سير العمليات التجارية.</p>
                 </div>
 
-                <!-- Skill Card 3 -->
+
                 <div class="glass-panel p-6 rounded-2xl text-center group hover:bg-white/80 dark:hover:bg-slate-800 transition-all">
                     <div class="w-16 h-16 mx-auto bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-purple-600 text-2xl mb-4 group-hover:scale-110 transition-transform">
                         <i class="fas fa-project-diagram"></i>
@@ -326,7 +326,7 @@
         </div>
     </section>
 
-    <!-- 5. Contact Section -->
+
     <section id="contact" class="py-20 px-4">
         <div class="max-w-3xl mx-auto w-full text-center">
             <div class="glass-panel p-10 rounded-[3rem] shadow-2xl relative overflow-hidden">
@@ -354,10 +354,10 @@
         </div>
     </section>
 
-    <!-- Scripts -->
+
     <script>
 
-        // --- 1. Dropdown Logic (New) ---
+
         const dropdownBtn = document.getElementById('profileDropdownBtn');
         const dropdownMenu = document.getElementById('profileDropdown');
         const dropdownIcon = document.getElementById('dropdownIcon');
@@ -387,7 +387,7 @@
             dropdownIcon.classList.remove('rotate-180');
         }
 
-        // --- 2. Localization ---
+
         const content = {
             ar: {
                 navHome: "الرئيسية",
@@ -397,7 +397,7 @@
                 contactQuick: "تواصل سريع",
                 greeting: "مرحباً، أنا",
                 name: "ناصر",
-                typewriter: ["مساعد اداري","خبير أتمتة إدارية", "مبرمج"],
+                typewriter: ["مساعد اداري وتقني","مطور ويب", "أخصائي تقنية معلومات"],
                 heroDesc: "أجمع بين دقة الإدارة التنفيذية وذكاء الحلول التقنية. هدفي هو تحويل الفوضى الإدارية إلى أنظمة رقمية سلسة وفعالة.",
                 viewJourney: "استكشف رحلتي",
                 contactMe: "تواصل معي",
@@ -448,7 +448,7 @@
                 contactQuick: "Quick Contact",
                 greeting: "Hello, I'm",
                 name: "Nasser",
-                typewriter: ["Programmer", , "Automation Expert", "Administrative assistant"],
+                typewriter: ["IT Specialist", "Web Developer", "IT & Admin Assistant"],
                 heroDesc: "Combining executive administrative precision with technical intelligence. My goal is to transform administrative chaos into seamless digital systems.",
                 viewJourney: "My Journey",
                 contactMe: "Contact Me",
@@ -544,7 +544,7 @@
             });
         }
 
-        // --- 3. Typewriter ---
+
         function typeWriter() {
             const phrases = content[currentLang].typewriter;
             const currentPhrase = phrases[txtIndex % phrases.length];
@@ -566,7 +566,7 @@
             setTimeout(typeWriter, typeSpeed);
         }
 
-        // --- 4. Theme Toggle ---
+
         function handleTransition(actionCallback) {
             const overlay = document.getElementById('transition-overlay');
             overlay.classList.remove('opacity-0', 'pointer-events-none');
@@ -588,7 +588,6 @@
             }
         }
 
-        // Init
         document.addEventListener('DOMContentLoaded', () => {
             updateContent();
             updateCVLink();
@@ -601,3 +600,4 @@
 </body>
 
 </html>
+
